@@ -6,6 +6,9 @@ import numpy as np
 from loop_rate_limiters import RateLimiter
 
 import mink
+# please use mjpython to run this code on mac
+
+# make sure to pip install mink
 
 from scipy.spatial.transform import Rotation as R
 
