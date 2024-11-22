@@ -21,7 +21,7 @@ if __name__ == "__main__":
     # refer to mink for this
 
     configuration = mink.Configuration(model)
-
+# attachment_site is in xml file for reference
     tasks = [
         end_effector_task := mink.FrameTask(
             frame_name="attachment_site",
